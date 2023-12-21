@@ -387,18 +387,18 @@
             <label for="phone">Phone:</label>
             <input type="tel" name="phone" id="phone" />
           </fieldset>
-          <fieldset>
+          <fieldset id="rsvp">
             <legend>RSVP</legend>
-            <label for="yes">Happily Accepts!</label>
-            <input type="radio" name="rsvp" value="yes" id="yes" />
-            <label for="no">Regretfully Declines :(</label>
-            <input type="radio" name="rsvp" value="no" id="no" />
-            <label for="partyMems">Others in Party</label>
+            <select name="rsvp" >
+              <option value="yes">Happily Accepts</option>
+              <option value="no">Regretfully Declines</option>
+            </select>
+            <label for="partyMems">Others in Party:</label>
             <textarea
               name="Party members"
               id="partyMems"
               cols="30"
-              rows="10"
+              rows="5"
               placeholder="Loki, Odie, Blankey"
             ></textarea>
           </fieldset>

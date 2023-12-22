@@ -1,0 +1,481 @@
+
+/*
+#A09659-Green on inv
+#896E62-Brown
+#FAD3CC-Pink
+#FFF7EF-Cream
+#D1DBC7- non inv green
+#d2d9dd- light blue
+*/ 
+html, body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    background-color: #fff0db;
+    width: 100%;
+    
+}
+header{
+    text-align: center;
+}
+header img{
+    width:100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+header p{
+    font-size: 250%;
+    padding: 2%;
+    color: #896E62;
+}
+nav a{
+    text-decoration: none;
+    font-size: 250% ;
+    padding:3%;
+    color: #896E62 ;
+    white-space: nowrap;
+}
+nav a:hover{
+    color: #d2d9dd;
+}
+h2{
+    font-size:400%;
+    margin-left: 4%;
+    padding-left: 1%;
+    border-bottom: 2px #FAD3CC  solid;
+    width: 10em;
+    color: #896E62;
+    margin-bottom: 0;
+}
+h3{
+    font-size:3.5em;
+    text-align: center;
+    background-color: #896E62;
+    color: #fff0db;
+    border-radius: 2em;
+    width: 10em;
+    padding: .2em;
+}
+.h3Wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h4{
+    font-size: 3em;
+    border-bottom:2px solid #A09659;
+    color: #896E62;
+    border-radius: 2em;
+    width: 10em;
+
+}
+#dress_code div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#dress_code img{
+    width: 50%;
+
+}
+.food{
+    display: flex;
+    width: 45em;
+    height: 22.5em;
+    border-radius: 4em;
+    color:#896E62;
+}
+.breakfast{
+    background-color: #FAD3CC;
+    border: 2px solid #edc6bf ;
+}
+.lunch{
+    background-color: #A09659;
+    border: 2px solid #89814c;
+    color: #fff0db;
+}
+.dinner{
+    background-color: #d2d9dd;
+    border: 2px solid  #b6bcc0;
+}
+.sweets{
+    background-color: #d1dbc7;
+    border: 2px solid #bfc8b6 ;
+}
+.foodInfo{
+    width: 50%;
+    
+}
+.resturaunts{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5em;
+    column-gap: 2em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+}
+.resturaunts img{
+    width: 100%;
+    border-radius: 4em;
+    
+}
+.resturaunts a{
+    margin-left: 0;
+    margin: 0;
+    width: 50%;
+    height: 22.5em;
+}
+h5{
+    font-size: 2.2em;
+    margin: .5em 0em;
+    padding:.2em;
+
+}
+.foodInfo p{
+    font-size: 1.75em;
+    font-weight: bold;
+}
+.foodInfo .testimony{
+    padding:0em 2em;
+    font-size: 1.2em;
+    font-weight:500;
+}
+.beachWrapper{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+.beach{
+    text-align: center;
+}
+.beach img{
+    width: 100%;
+    border-radius: 2em;
+}
+#details p, #dress_code p{
+    text-align: center;
+    font-size: 2em;
+    padding: 0 20%;
+    color: #896E62 ;
+}
+.beach h4{
+    font-size: 3em;
+    border-bottom:none;
+    text-align: center;
+    width: auto;
+    margin-top:0;
+    margin-bottom: 1em;
+}
+#accommodations{
+    text-align: center;
+}
+
+#accommodations h2{
+    margin-bottom: 0;
+}
+#accommodations h3{
+    margin-bottom: 0;
+}
+.accomLinks{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+.accomLinks div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.accomLinks div a{
+    font-size: 3em;
+    padding: 0;
+    margin:0 1em;
+}
+.accomLinks div a img{
+    width: 100%;
+}
+
+#Aloft{
+    text-decoration: none;
+    font-size: 4em;
+    padding: 0;
+    color: #896E62;
+}
+#Aloft:hover{
+    color: #FAD3CC;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+fieldset{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    border-radius: 2em;
+    width: 800px;
+    justify-content: center;
+    border-color: #D1DBC7;
+    margin: .5em 0;
+    padding: 1em;
+}
+legend{
+    font-size: 1.25em;
+    color: #896E62;
+}
+label{
+    text-align: right;
+    width: 8em;
+    color: #A09659;
+}
+form{
+    font-size: 2em;
+}
+input[type="radio"]{
+    width: 1.5em;
+}
+input{
+    background-color: #FAD3CC;
+    width: 280px;
+    border-radius: 20px;
+    border: 2px solid#A09659;
+} 
+#rsvp{
+    column-gap: 2em;
+}
+select{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 20px;
+    color: #A09659;
+    background-color: #fff0db;
+    border: 2px solid#A09659;
+    margin:0 1em;
+}
+input[type="submit"]{
+    font-size: 1em;
+    width: 5em;
+    padding: .2em 0;
+    color:#896E62;
+}
+textarea{
+    background-color: #FAD3CC;
+    border-radius: 20px;
+    padding: .75em;
+}
+@media only screen and (max-width:1024px){
+    .food{
+        display: flex;
+        width: 400px;
+        height: 200px;
+        border-radius: 4em;
+    }
+    h5{
+            font-size: 1.5em;
+            margin: 0;
+            padding:0 .5em;
+            padding-top:.4em ;
+    }
+    .foodInfo{
+            display: grid;
+            grid-template-columns: auto;
+            row-gap: 0;
+            column-gap: 0;
+    
+    }
+    .foodInfo p{
+            font-size: 1.2em;
+            margin: 0 ;
+            padding: 0 ;
+            height: 1.2em;
+            
+    }
+    .foodInfo .testimony{
+            margin: 0;
+            padding:0 1em;
+            font-size: .8em;
+            height: auto;
+    }
+    h5, .foodInfo p{
+            line-height: 1;
+            vertical-align: top;
+    }
+    .beach{
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    .beach h4{
+        font-size: 2.5em;
+        border-bottom:none;
+        text-align: center;
+        width: auto;
+        margin-top:1em;
+        margin-bottom: .2em;
+    }
+}
+
+@media only screen and (max-width:768px){
+    body{
+        background-color: #fff0db;
+    }
+    .resturaunts{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left:0 ;
+    }
+    .food{
+        display: flex;
+        width: 400px;
+        border-radius: 4em;
+        
+    } 
+    h5{
+        font-size: 1.5em;
+        margin: 0;
+        padding:0 .5em;
+        padding-top:.4em ;
+        
+    }
+    .foodInfo{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 0;
+        column-gap: 0;
+
+    }
+    .foodInfo p{
+        font-size: 1.2em;
+        margin: 0 ;
+        padding: 0 ;
+        height: 1.2em;
+        
+    }
+    .foodInfo .testimony{
+        margin: 0;
+        padding:0 1em;
+        font-size: .8em;
+        height: auto;
+    }
+    h5, .foodInfo p{
+        line-height: 1;
+        vertical-align: top;
+    }
+    h2{
+        font-size:3.0em;
+        margin-left: 4%;
+        padding-left: 1%;
+        border-bottom: 2px #FAD3CC  solid;
+        width: 8em;
+        margin-bottom: 0;
+    }
+    h3{
+        font-size:2.5em;
+        width: 10em;
+    }
+    h4{
+        font-size: 2.4em;
+        border-bottom:2px solid #A09659;
+        border-radius: 2em;
+        width: 8em;
+    
+    }
+    #details p, #dress_code p{
+        text-align: center;
+        font-size: 1.5em;
+        padding: 0 10%;
+        color: #896E62 ;
+    }
+    .beachWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .beach{
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    .beach h4{
+        font-size: 1.6em;
+        border-bottom:none;
+        text-align: center;
+        width: auto;
+        margin-top:1em;
+        margin-bottom: .2em;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a{
+        font-size: 3.5em;
+        padding: 0;
+    }
+    fieldset{
+        display: grid;
+        grid-template-columns: auto auto;
+        border-radius: 2em;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+    }
+    label{
+        text-align: right;
+        width: 5em;
+        color: #A09659;
+    }
+    input{
+        width: 150px;
+    }
+    form{
+        font-size: 1.5em;
+    }
+    textarea{ 
+        margin-right: 0;
+    }
+    #Aloft{
+        font-size: 2.2em;
+    }
+    .accomLinks div a{
+        width: 3em;
+        padding: 0;
+        margin:0 .5em;
+    }
+    .accomLinks{
+        margin-top: 2em;
+    }
+}
